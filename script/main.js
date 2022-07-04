@@ -15,9 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
       duration: 2300,
     },
     duration: 2000,
-    elasticity: 600,
     easing: "easeOutExpo",
-    delay: (el, i) => 100 * (i + 8),
+    delay: anime.stagger(100),
   });
 
   anime({
@@ -29,9 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
       duration: 1300,
     },
     duration: 1000,
-    elasticity: 600,
     easing: "easeOutExpo",
-    delay: (el, i) => 10 * (i + 8),
+    delay: anime.stagger(30),
   });
 
   anime({
@@ -43,9 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
       duration: 2300,
     },
     duration: 2000,
-    elasticity: 600,
     easing: "easeOutExpo",
-    delay: (el, i) => 100 * (i + 8),
+    delay: anime.stagger(100),
   });
 });
 
