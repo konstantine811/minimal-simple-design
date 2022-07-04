@@ -1,0 +1,23 @@
+{
+  "name": "minimal_single_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konstantine811/minimal-simple-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konstantine811/minimal-simple-design/issues"
+  },
+  "homepage": "https://github.com/konstantine811/minimal-simple-design#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
